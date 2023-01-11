@@ -1,0 +1,50 @@
+.l-contact {
+    max-width: 1400px;
+    width: 100%;
+    padding: 30px;
+}
+
+.l-contact * + * {
+    margin-top: 20px;
+}
+.c-contact__alert {
+    color: rgb(255, 13, 13);
+    font-weight: bold;
+}
+.c-contact__field {
+    display: block;
+    padding: 12px 12px;
+    border-width: 0px 0px 1px 0px;
+    width: 100%;
+    font-size: 16px;
+    &::placeholder {
+        color: rgb(176, 176, 176);
+        font-weight: bold;
+    }
+}
+*:focus-visible {
+    outline-color: rgb(176, 176, 176);
+}
+.c-contact__field--message {
+    height: 100px;
+}
+.c-contact__button {
+    display: block;
+    background: #333;
+    color: #fff;
+    border: 0;
+    width: 100%;
+    max-width: 124px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+}
+.c-contact__thanks {
+    margin-top: 40px;
+    padding: 20px 20px;
+    font-weight: bold;
+    color: #333;
+    background: #ececec;
+}

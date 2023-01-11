@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <style>
+      .hidden {
+        display: none;
+      }
+
+      .shown {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="l-contact">
+      <h1>Contact Us</h1>
+      <form method="POST" class="c-contact l-contact contact-form">
+        <input
+          type="text"
+          id="name"
+          class="c-contact__field"
+          placeholder="Name"
+          name="name"
+        />
+        <input
+          type="email"
+          id="email"
+          class="c-contact__field"
+          placeholder="Email"
+          name="email"
+          required
+        />
+        <div class="c-contact__alert alert-msg hidden" id="email_msg">
+          メールアドレスを入力してください
+        </div>
+        <input
+          type="tel"
+          id="tel"
+          class="c-contact__field"
+          placeholder="Tel"
+          name="tel"
+        />
+        <textarea
+          class="c-contact__field c-contact__field--message"
+          id="message"
+          placeholder="Message"
+          name="yourmessage"
+        ></textarea>
+
+        <input
+          type="submit"
+          id="form-submit"
+          class="contact-form-btn c-contact__button"
+          value="Send"
+        />
+      </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js" defer></script>
+    <script></script>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
