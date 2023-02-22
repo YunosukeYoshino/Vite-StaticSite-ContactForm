@@ -3,9 +3,10 @@
 npm install
 ```
 
- ## インストール（出力は省略）
+## 開発サーバを起動
 ```
-npm run dev   # ③開発サーバを起動
+npm run dev   
+
 ```
 
 ## build
